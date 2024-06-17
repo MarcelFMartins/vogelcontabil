@@ -393,7 +393,7 @@ h1 {
     margin-right: 400px;
 }
 
-@media(max-width: 1349px) {
+@media screen and (max-width: 1340px) {
     .container,
     .hero {
         flex-direction: column;
