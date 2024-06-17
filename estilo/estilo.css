@@ -1,0 +1,571 @@
+body {
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texth1 {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.servicosinicio {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#itemservicos {
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    margin-right: 55px;
+    margin-top: 10px;
+    transition: 1s;
+    font-size: 24px;
+    font-family: JetBrains Mono;
+}
+
+li:hover {
+    font-size: 25px;
+    color: rgb(0, 55, 175);
+    text-shadow: white 2px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+}
+
+.hero,
+.hero-footer {
+    background-color: white;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.contatohero,
+.contato-footer {
+    display: block; 
+    flex-wrap: wrap; 
+    justify-content: end;
+}
+
+.texthero {
+    text-align: center;
+    color: black;
+    font-family: JetBrains Mono;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.box1,
+.box2 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 350px;
+}
+
+.box1:hover,
+.box2:hover,
+.boxservicos1:hover,
+.boxservicos2:hover,
+.boxservicos3:hover,
+.boxservicos4:hover,
+.boxservicos5:hover {
+    box-shadow: 1.5px 3px 8px 4px black;
+}
+
+.imgcontato {
+    transition: 2s;
+}
+
+.imgcontato:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.confira {
+    text-align: justify;
+    font-size: 18px;
+    padding: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.aconfira {
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+.aconfira:hover {
+    font-size: 22px;
+    color: rgb(0, 55, 175);
+}
+
+.confira2 {
+    text-align: center;
+}
+
+.textcontato {
+    text-align: center;
+    background-color: white;
+    padding: 14px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapimg {
+    border-radius: 20px;
+    width: 800px;
+}
+
+.boxservicos1 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 570px;
+}
+
+.boxservicos2 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 460px;
+}
+
+.boxservicos3 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+}
+
+.boxservicos4 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 480px;
+}
+
+.boxservicos5 {
+    background-color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 560px;
+}
+
+.boxerservicos {
+    flex-direction: column;
+}
+
+.footer {
+    background-color: rgb(179, 179, 179);
+    color: black;
+    font-family: JetBrains Mono;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom:0%;
+    width: 100%;
+}
+
+.textfooter {
+    text-align: center;
+    font-size: 22px;
+}
+
+.imgfooter {
+    max-width: 300px;
+    display: flex;
+    margin: auto;
+}
+
+.numero {
+    transition: 1s;
+}
+
+.numero:hover {
+    font-size: 18px;
+    color: rgb(0, 55, 175); 
+}
+
+#divimgrf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgreferencia {
+    margin-bottom: 50px;
+    width: 600px;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 2px rgb(95, 95, 95);
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.6s;
+    filter: blur(0.5px);
+}
+
+.imgreferencia:hover {
+    border: 2px solid white;
+    filter: blur(0);
+}
+
+#blocoimgrf {
+    background-color: white; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px 5px rgb(141, 141, 141);
+}
+
+.textcard {
+    font-family: JetBrains Mono; 
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.imgcard {
+    margin-left: 5px;
+}
+
+.imgcard {
+    border-radius: 5px; 
+    border: 1px solid black; 
+    width: 200px; 
+    height: 200px; 
+    margin-top: 5px;
+}
+
+.card-sobre {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 500px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px 5px rgb(141, 141, 141);
+}
+
+.saibamais {
+    border: 2px solid black;
+    background-color: rgba(97, 97, 97, 0.651);
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 800px;
+    padding: 20px;
+    transition: 0.6s;
+    border-radius: 5.5px;
+    font-family: JetBrains Mono;
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+.saibamais:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.texthistoria {
+    text-align: justify; 
+    margin-left: 400px; 
+    margin-right: 400px; 
+    font-size: 18px;
+}
+
+.imghero {
+    width: 200px;
+}
+
+.contatoimghero {
+    margin-left: 95px;
+}
+
+.hrs {
+    width: 800px; 
+    margin-top: 20px; 
+    margin-bottom: 80px;
+}
+
+.textsobre {
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+@media(max-width: 768px) {
+    .container,
+    .hero {
+        flex-direction: column;
+    }
+    .box1,
+    .box2 {
+        flex-direction: column;
+        display: block;
+        height: 500px;
+        height: 350px;
+    }
+    .footer,
+    .hero {
+        margin: auto;
+    }
+    .hero-footer {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contatohero {
+        text-align: center;
+    }
+    .imgfooter {
+        width: 200px; 
+    }
+    .confira,
+    .confira2 {
+        flex-direction: column;
+    }
+    nav, 
+    li,
+    ul {
+        height: 200px;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+    .boxservicos1 {
+        height: 800px;
+    }
+    .boxservicos2 {
+        height: 630px;
+    }
+    .boxservicos3 {
+        height: 720px;
+    }
+    .boxservicos4 {
+        height: 700px;
+    }
+    .boxservicos5 {
+        height: 790px;
+    }
+    .textcontato {
+        width: 300px;
+    }
+    .textfooter {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+    .confira {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .texth1 {
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .servicosinicio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocoscard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card,
+    .card-sobre {
+        margin-bottom: 10px;
+    }
+    .texthistoria {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #divimgrf {
+        flex-direction: column;
+    }
+    .imgreferencia {
+        width: 280px;
+        filter: blur(0);
+    }
+    #blocoimgrf {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imghero {
+        width: 150px;
+    }
+    .contatoimghero {
+        margin-left: 45px;
+    }
+    .hrs {
+        width: 300px;
+    }
+    .saibamais {
+        width: 150px;
+        padding: 10px;
+    }
+    .mapimg {
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .textsobre {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .card-sobre {
+        width: 350px;
+        height: 530px;
+    }
+    .textcontato {
+        color: rgb(0, 55, 175);
+    }
+    .footerhero {
+        margin-right: 5px;
+        margin-left: 5px;
+        text-align: center;
+        padding: 5px;
+    }
+    .textfooter2 {
+        margin-left: 0px;
+        margin-right: 110px;
+    }
+    #contato-footer {
+        margin-left: 2px;
+        margin-right: 2px;
+        text-align: center;
+    }
+    .h1footer {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 55px;
+    }
+    .hr2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+#contato-footer {
+    padding: 25px; 
+    margin-left: 60px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+
+* {
+    opacity: 0; 
+    animation: fade-in 1s ease-in-out forwards;
+}
